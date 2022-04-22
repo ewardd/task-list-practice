@@ -1,0 +1,32 @@
+.task-list-item {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+
+    &-checkbox {}
+
+    &-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        flex: 1;
+    }
+
+    &-delete-button {
+        padding: 0;
+        font-size: 15px;
+        margin: 0;
+        border: none;
+        background: transparent;
+        display: flex;
+        opacity: 0;
+    }
+
+}
+
+.task-list-item:hover {
+    .task-list-item-delete-button {
+        opacity: 1;
+    }
+
+}

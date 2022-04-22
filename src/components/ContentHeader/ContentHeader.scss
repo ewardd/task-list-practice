@@ -1,0 +1,29 @@
+.content-header {
+    margin-left: 16px;
+
+    &-input {
+        border: none;
+        text-align: left;
+        padding: 10px 12px;
+        width: 180px;
+        height: 37px;
+        border-radius: 4px;
+        background-color: transparent;
+        font-size: 32px;
+        padding: 0px;
+    }
+
+    &-button {
+        border: none;
+        text-align: left;
+        padding: 10px 12px;
+        width: 160px;
+        height: 37px;
+        border-radius: 4px;
+        background-color: transparent;
+
+        &-icon {
+            margin-left: 16px;
+        }
+    }
+}
